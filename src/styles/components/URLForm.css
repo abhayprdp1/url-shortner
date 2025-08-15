@@ -1,0 +1,79 @@
+.url-form-center-card {
+  background: #fff;
+  margin: 0 auto 24px auto;
+  max-width: 500px;
+  box-shadow: 0 6px 32px rgba(60,110,255,0.08), 0 1.5px 7px rgba(20,20,34,0.06);
+  border-radius: 16px;
+  padding: 35px 32px 28px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.url-form-heading h2 {
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #323256;
+  letter-spacing: 1px;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-bottom: 11px;
+}
+
+.url-input {
+  flex: 1;
+  border: 2px solid #e6e8ec;
+  border-right: none;
+  border-radius: 7px 0 0 7px;
+  font-size: 1.14em;
+  padding: 10px 18px;
+  outline: none;
+  transition: border-color 0.18s;
+}
+
+.url-input:focus {
+  border-color: #1579e9;
+}
+
+.shorten-btn {
+  background: #1579e9;
+  color: #fff;
+  border: none;
+  border-radius: 0 7px 7px 0;
+  padding: 0 32px;
+  height: 44px;
+  font-size: 1.09em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.14s;
+}
+
+.shorten-btn:disabled {
+  background: #b6cced;
+  color: #ffffff;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #f43f5e;
+  font-size: 1em;
+  margin-bottom: 7px;
+  text-align: center;
+}
+
+.url-form-desc {
+  margin-top: 18px;
+  color: #3b3b43;
+  font-size: 1.09em;
+  text-align: center;
+  opacity: 0.88;
+  line-height: 1.45;
+}

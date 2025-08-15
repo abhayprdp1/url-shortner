@@ -1,0 +1,15 @@
+.header {
+  background: none;
+  padding: 28px 0 0 0;
+  text-align: center;
+}
+
+.app-title {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 2.7em;
+  font-weight: bold;
+  color: #1579e9;
+  margin-bottom: 0;
+  margin-top: 0;
+  letter-spacing: 1px;
+}

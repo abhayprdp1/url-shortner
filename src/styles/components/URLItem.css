@@ -1,0 +1,101 @@
+.url-item {
+  padding: 12px 0;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.url-content {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.url-section {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.url-label {
+  font-size: 0.95em;
+  color: #6d6d7b;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+
+.url-text.original {
+  color: #19202e;
+  word-break: break-all;
+  font-size: 1.055em;
+}
+
+.url-text.shortened {
+  color: #2563eb;
+  word-break: break-all;
+  font-weight: 600;
+  font-size: 1.05em;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.url-text.shortened:hover {
+  color: #8e44ad;
+}
+
+.url-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.copy-btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 6px 14px;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+
+.copy-btn.success,
+.copy-btn:active {
+  background: #22c55e;
+}
+
+.copy-btn:hover {
+  background: #2563eb;
+}
+
+.delete-btn {
+  background: #fff;
+  color: #f43f5e;
+  border-radius: 7px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border: 1px solid #f43f5e;
+  cursor: pointer;
+  transition: background 0.13s;
+}
+
+.delete-btn:hover {
+  background: #f43f5e;
+  color: #fff;
+}
+
+.created-date {
+  color: #b1b1bf;
+  font-size: 0.91em;
+  padding-left: 10px;
+}
